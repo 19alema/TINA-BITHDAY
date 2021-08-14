@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+body {
+    background-image: url("https://www.jqueryscript.net/images/jQuery-Plugin-For-Snowfall-Effect-with-Rotating-Snowflakes.jpg");
+    background-repeat: repeat;
+    animation: fall 6s linear infinite;
+    background-color: black;
+    color: #fffc00;
+    font-family:Handlee,
+    'Charmonman';
+    font-size: 50xp;
+    padding: 0 30px;
+     line-height: 2rem;
+}
+
+#Z {
+    font-size: 50px;
+    top: 70%;
+    left: 55%;
+}
+
+#X {
+    font-size: 40px;
+    top: 55%;
+    left: 60%;
+}
+
+#Y {
+    font-size: 50px;
+    top: 65%;
+}
+input[type='button'] {
+    padding: 1rem 2px;
+    font-weight: 900;
+    font-family: Handlee;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+     transition: .3s background;
+}
+
+input[type='button']:hover {
+    background: transparent;
+    color: yellow;
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 5px;
+    display: block;
+    border: 5px solid greenyellow;
+    cursor: pointer;
+}
+
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin-top: 8rem;
+}
+
+.HB {
+
+
+    font-family: cursive;
+    text-shadow: 0 0 4px black;
+    font-size: 40px;
+
+    padding: 3rem 0;
+    line-height: 2.6rem;
+    -webkit-animation: c 3s infinite;
+
+    -ms-animation: c 5s infinite;
+    animation: c 5s infinite;
+}
+
+
+@-webkit-keyframes c {
+    0% {
+        color: red;
+    }
+
+    10% {
+        color: purple;
+    }
+
+    20% {
+        color: red;
+    }
+
+    30% {
+        color: Blue;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    50% {
+        color: hotPink;
+    }
+
+    60% {
+        color: green;
+    }
+
+    70% {
+        color: orange;
+    }
+
+    80% {
+        color: DeepPink;
+    }
+
+    90% {
+        color: yellow;
+    }
+
+    100% {
+        color: orange;
+    }
+}
+
+
+div {
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+
+}
+
+div:nth-child(7) {
+    background: radial-gradient(white, yellow);
+    box-shadow: 0 0 10px 5px yellow;
+    width: 50px;
+    height: 50px;
+    top: 65%;
+    left: 75%;
+    animation: ketan 5s infinite;
+
+}
+
+div:nth-child(6) {
+    background: radial-gradient(#fff, deepPink);
+    box-shadow: 0 0 20px 5px deepPink;
+    width: 50px;
+    height: 50px;
+    top: 22%;
+    left: 75%;
+    animation: ketan 5s infinite;
+
+}
+
+
+div:nth-child(8) {
+    background: radial-gradient(white, red);
+    box-shadow: 0 0 20px 5px red;
+    width: 50px;
+    height: 50px;
+    top: 23%;
+    left: 13%;
+    animation: ketan 5s infinite;
+
+}
+
+
+
+
+div:nth-child(9) {
+    background: radial-gradient(white, blue);
+    box-shadow: 0 0 15px 5px blue;
+    width: 50px;
+    height: 50px;
+    top: 65%;
+    left: 30%;
+    animation: ketan 5s infinite;
+
+}
+
+div:nth-child(10) {
+    background: radial-gradient(#fff, Violet);
+    box-shadow: 0 0 20px 5px Violet;
+    width: 55px;
+    height: 55px;
+    top: 3%;
+    left: 43%;
+    animation: ketan 5s infinite;
+
+}
+
+
+
+@keyframes ketan {
+    0% {
+        opacity: 2.5
+    }
+
+    50% {
+        opacity: 1.5;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
+
+
+
+
+
+@keyframes fall {
+    0% {
+        background-position: 0px 50px;
+    }
+
+    100% {
+        background-position: 0px 500px;
+    }
+}
+
+
