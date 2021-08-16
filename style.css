@@ -97,10 +97,6 @@ img {
     object-fit: contain;
 }
 
-img:nth-child(2) {
-    animation: deg 8s infinite;
-    transition:  3s transform;
-}
 
 .img-container {
     display: flex;
